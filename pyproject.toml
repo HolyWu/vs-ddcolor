@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vsddcolor"
+version = "1.0.0"
+description = "DDColor function for VapourSynth"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "HolyWu", email = "holywu@gmail.com"}]
+keywords = ["DDColor", "VapourSynth"]
+classifiers = [
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Multimedia :: Video"
+]
+dependencies = [
+  "kornia>=0.7.0",
+  "numpy>=1.26.2",
+  "requests>=2.31.0",
+  "timm>=0.9.12",
+  "torch>=2.1.1",
+  "tqdm>=4.66.1",
+  "VapourSynth>=62"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HolyWu/vs-ddcolor"
+"Bug Tracker" = "https://github.com/HolyWu/vs-ddcolor/issues"
